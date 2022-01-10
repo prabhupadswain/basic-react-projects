@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import CountrySelect from './components/CountrySelect';
+import BasicButtons from './components/BasicButtons';
+import DataTable from './components/DataTable';
+import OutlinedCard from './components/OutlinedCard';
+import Navigation from './components/Navigation';
+import RegdDetails from './components/RegdDetails';
+import SimpleBottomNavigation from './components/SimpleBottomNavigation';
+import BasicStack from './components/BasicStack';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <hr />
+      <br />
+      <RegdDetails />
+      <br />
+      <CountrySelect />
+      <br />
+      <BasicButtons />
+      <br />
+      <BasicStack />
+      <br />
+      <DataTable />
+      <br />
+      <OutlinedCard />
+      <br />
+      <SimpleBottomNavigation />
     </div>
   );
 }
