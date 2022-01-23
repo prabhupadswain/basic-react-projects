@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import ProgressBars from './components/ProgressBars';
 import ToLearn from './components/ToLearn';
 import Flex from './components/Flex';
+import Spinner from './components/Spinner';
 
 class App extends Component {
   render() {
@@ -15,14 +16,18 @@ class App extends Component {
         <div className='App'>
           <Navbar />
           <Header />
-          <hr/>
+          <hr />
         </div>
-        <br/>
+        <CardData />
+        <hr />
+        <br />
         <ToLearn />
         <h3>Your progress chart : </h3>
         <ProgressBars />
-        <CardData />
+        <hr />
         <Flex />
+        <hr />
+        <Spinner />
       </>
     );
   }

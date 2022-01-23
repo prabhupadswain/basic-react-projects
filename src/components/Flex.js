@@ -4,21 +4,25 @@ class Flex extends Component {
   render() {
     return (
       <div className='container mt-3'>
+          <h2>JavaScript frameworks/libraries</h2>
         <div className='d-inline-flex p-3 bg-secondary text-white'>
           <div className='p-2 bg-info'>
-            <button type='button' className='btn btn-primary'>
-              Angular
-            </button>
+            <p>Angular</p>
           </div>
           <div className='p-2 bg-warning'>
-            <button type='button' className='btn btn-success'>
-              React
-            </button>
+            <p>React</p>
           </div>
           <div className='p-2 bg-primary'>
-            <button type='button' className='btn btn-warning'>
-              Vue
-            </button>
+            <p>Vue</p>
+          </div>
+          <div className='p-2 bg-danger'>
+            <p>Node</p>
+          </div>
+          <div className='p-2 bg-dark'>
+            <p>Express</p>
+          </div>
+          <div className='p-2 bg-success'>
+            <p>Polymer</p>
           </div>
         </div>
       </div>
