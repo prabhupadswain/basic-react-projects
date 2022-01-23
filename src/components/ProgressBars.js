@@ -6,25 +6,25 @@ class ProgressBars extends Component {
       
       <div className='container mt-3 mb-3 pt-1 pb-1'>
         <div className='progress'>
-          <div className='progress-bar bg-info' style={{ width: '50%' }}>HTML</div>
+          <div className='progress-bar bg-info' style={{ width: '50%' }}>HTML - 50%</div>
         </div> 
         <div className='progress'>
           <div
             className='progress-bar bg-danger'
             style={{ width: '30%' }}
-          >CSS</div>
+          >CSS - 30%</div>
         </div>
         <div className='progress'>
           <div
             className='progress-bar bg-warning'
             style={{ width: '70%' }}
-          >JavaScript</div>
+          >JavaScript - 70%</div>
         </div>
         <div className='progress'>
           <div
             className='progress-bar bg-success'
             style={{ width: '80%' }}
-          >Bootstrap</div>
+          >Bootstrap - 80%</div>
         </div>
       </div>
     );
