@@ -10,6 +10,7 @@ class Header extends Component {
           interact with lot of other techies who who are here to learn React.
           Help, yourself and each other. Expand your learning.
         </p>
+        <p>Feel free to share, post, ask query related to React and other technologies too.</p>
       </>
     );
   }
